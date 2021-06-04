@@ -20,16 +20,16 @@ def vegetables():
     print("\n")
 
     # Количество овощей
-    cnt_veg1 = input("Сколько овощей '" + veg1 + "' вы хотите? ")
-    cnt_veg2 = input("Сколько овощей '" + veg2 + "' вы хотите? ")
-    cnt_veg3 = input("Сколько овощей '" + veg3 + "' вы хотите? ")
+    сount_veg1 = input("Сколько овощей '" + veg1 + "' вы хотите? ")
+    сount_veg2 = input("Сколько овощей '" + veg2 + "' вы хотите? ")
+    сount_veg3 = input("Сколько овощей '" + veg3 + "' вы хотите? ")
 
     print("\nОтлично! Что ж, держите:\n")
 
     # Все овощи с их количеством в "format" режиме
-    print(veg1.title() + " в количестве {} шт.".format(cnt_veg1))
-    print(veg2.title() + " в количестве {} шт.".format(cnt_veg2))
-    print(veg3.title() + " в количестве {} шт.".format(cnt_veg3))
+    print(veg1.title() + " в количестве {} шт.".format(сount_veg1))
+    print(veg2.title() + " в количестве {} шт.".format(сount_veg2))
+    print(veg3.title() + " в количестве {} шт.".format(сount_veg3))
     return 0
 
 
